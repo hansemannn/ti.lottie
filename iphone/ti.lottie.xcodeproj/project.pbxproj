@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24416B8111C4CA220047AFDD /* Build & Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
+			buildPhases = (
+				24416B8011C4CA220047AFDD /* ShellScript */,
+			);
+			dependencies = (
+				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
+			);
+			name = "Build & Test";
+			productName = "Build & test";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		24DD6CF91134B3F500162E58 /* TiLottieModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* TiLottieModule.h */; };
+		24DD6CFA1134B3F500162E58 /* TiLottieModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* TiLottieModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* TiLottieModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* TiLottieModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* TiLottieModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* TiLottieModuleAssets.m */; };
+		AA747D9F0F9514B9006C5449 /* TiLottie_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* TiLottie_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		DBFA500A1E42A52A004DA6E3 /* TiLottieVectorView.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFA50081E42A52A004DA6E3 /* TiLottieVectorView.h */; };
+		DBFA500B1E42A52A004DA6E3 /* TiLottieVectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA50091E42A52A004DA6E3 /* TiLottieVectorView.m */; };
+		DBFA500E1E42A53B004DA6E3 /* TiLottieVectorViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFA500C1E42A53B004DA6E3 /* TiLottieVectorViewProxy.h */; };
+		DBFA500F1E42A53B004DA6E3 /* TiLottieVectorViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA500D1E42A53B004DA6E3 /* TiLottieVectorViewProxy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = ti.lottie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24DD6CF71134B3F500162E58 /* TiLottieModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiLottieModule.h; path = Classes/TiLottieModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* TiLottieModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiLottieModule.m; path = Classes/TiLottieModule.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24DE9E0F11C5FE74003F90F6 /* TiLottieModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiLottieModuleAssets.h; path = Classes/TiLottieModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* TiLottieModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiLottieModuleAssets.m; path = Classes/TiLottieModuleAssets.m; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* TiLottie_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiLottie_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D2AAC07E0554694100DB518D /* libti.lottie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libti.lottie.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBFA4FC11E42A3B3004DA6E3 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		DBFA4FC51E42A3B3004DA6E3 /* CAAnimationGroup+LAAnimatableGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CAAnimationGroup+LAAnimatableGroup.h"; sourceTree = "<group>"; };
+		DBFA4FC61E42A3B3004DA6E3 /* CAAnimationGroup+LAAnimatableGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CAAnimationGroup+LAAnimatableGroup.m"; sourceTree = "<group>"; };
+		DBFA4FC71E42A3B3004DA6E3 /* CGGeometryAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGGeometryAdditions.h; sourceTree = "<group>"; };
+		DBFA4FC81E42A3B3004DA6E3 /* CGGeometryAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGGeometryAdditions.m; sourceTree = "<group>"; };
+		DBFA4FC91E42A3B3004DA6E3 /* LAAnimatableBoundsValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAAnimatableBoundsValue.h; sourceTree = "<group>"; };
+		DBFA4FCA1E42A3B3004DA6E3 /* LAAnimatableBoundsValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAAnimatableBoundsValue.m; sourceTree = "<group>"; };
+		DBFA4FCB1E42A3B3004DA6E3 /* LAAnimatableColorValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAAnimatableColorValue.h; sourceTree = "<group>"; };
+		DBFA4FCC1E42A3B3004DA6E3 /* LAAnimatableColorValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAAnimatableColorValue.m; sourceTree = "<group>"; };
+		DBFA4FCD1E42A3B3004DA6E3 /* LAAnimatableLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAAnimatableLayer.h; sourceTree = "<group>"; };
+		DBFA4FCE1E42A3B3004DA6E3 /* LAAnimatableLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAAnimatableLayer.m; sourceTree = "<group>"; };
+		DBFA4FCF1E42A3B3004DA6E3 /* LAAnimatableNumberValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAAnimatableNumberValue.h; sourceTree = "<group>"; };
+		DBFA4FD01E42A3B3004DA6E3 /* LAAnimatableNumberValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAAnimatableNumberValue.m; sourceTree = "<group>"; };
+		DBFA4FD11E42A3B3004DA6E3 /* LAAnimatablePointValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAAnimatablePointValue.h; sourceTree = "<group>"; };
+		DBFA4FD21E42A3B3004DA6E3 /* LAAnimatablePointValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAAnimatablePointValue.m; sourceTree = "<group>"; };
+		DBFA4FD31E42A3B3004DA6E3 /* LAAnimatableScaleValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAAnimatableScaleValue.h; sourceTree = "<group>"; };
+		DBFA4FD41E42A3B3004DA6E3 /* LAAnimatableScaleValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAAnimatableScaleValue.m; sourceTree = "<group>"; };
+		DBFA4FD51E42A3B3004DA6E3 /* LAAnimatableShapeValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAAnimatableShapeValue.h; sourceTree = "<group>"; };
+		DBFA4FD61E42A3B3004DA6E3 /* LAAnimatableShapeValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAAnimatableShapeValue.m; sourceTree = "<group>"; };
+		DBFA4FD71E42A3B3004DA6E3 /* LAAnimatableValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAAnimatableValue.h; sourceTree = "<group>"; };
+		DBFA4FD81E42A3B3004DA6E3 /* LAAnimationCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAAnimationCache.h; sourceTree = "<group>"; };
+		DBFA4FD91E42A3B3004DA6E3 /* LAAnimationCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAAnimationCache.m; sourceTree = "<group>"; };
+		DBFA4FDA1E42A3B3004DA6E3 /* LAAnimationTransitionController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAAnimationTransitionController.m; sourceTree = "<group>"; };
+		DBFA4FDB1E42A3B3004DA6E3 /* LAAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAAnimationView.m; sourceTree = "<group>"; };
+		DBFA4FDC1E42A3B3004DA6E3 /* LAAnimationView_Internal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAAnimationView_Internal.h; sourceTree = "<group>"; };
+		DBFA4FDD1E42A3B3004DA6E3 /* LAComposition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAComposition.h; sourceTree = "<group>"; };
+		DBFA4FDE1E42A3B3004DA6E3 /* LAComposition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAComposition.m; sourceTree = "<group>"; };
+		DBFA4FDF1E42A3B3004DA6E3 /* LAEllipseShapeLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAEllipseShapeLayer.h; sourceTree = "<group>"; };
+		DBFA4FE01E42A3B3004DA6E3 /* LAEllipseShapeLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAEllipseShapeLayer.m; sourceTree = "<group>"; };
+		DBFA4FE11E42A3B3004DA6E3 /* LAGroupLayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAGroupLayerView.h; sourceTree = "<group>"; };
+		DBFA4FE21E42A3B3004DA6E3 /* LAGroupLayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAGroupLayerView.m; sourceTree = "<group>"; };
+		DBFA4FE31E42A3B3004DA6E3 /* LAHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAHelpers.h; sourceTree = "<group>"; };
+		DBFA4FE41E42A3B3004DA6E3 /* LALayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LALayer.h; sourceTree = "<group>"; };
+		DBFA4FE51E42A3B3004DA6E3 /* LALayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LALayer.m; sourceTree = "<group>"; };
+		DBFA4FE61E42A3B3004DA6E3 /* LALayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LALayerView.h; sourceTree = "<group>"; };
+		DBFA4FE71E42A3B3004DA6E3 /* LALayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LALayerView.m; sourceTree = "<group>"; };
+		DBFA4FE81E42A3B3004DA6E3 /* LAMask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAMask.h; sourceTree = "<group>"; };
+		DBFA4FE91E42A3B3004DA6E3 /* LAMask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAMask.m; sourceTree = "<group>"; };
+		DBFA4FEA1E42A3B3004DA6E3 /* LAMaskLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAMaskLayer.h; sourceTree = "<group>"; };
+		DBFA4FEB1E42A3B3004DA6E3 /* LAMaskLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAMaskLayer.m; sourceTree = "<group>"; };
+		DBFA4FEC1E42A3B3004DA6E3 /* LAModels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAModels.h; sourceTree = "<group>"; };
+		DBFA4FED1E42A3B3004DA6E3 /* LARectShapeLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LARectShapeLayer.h; sourceTree = "<group>"; };
+		DBFA4FEE1E42A3B3004DA6E3 /* LARectShapeLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LARectShapeLayer.m; sourceTree = "<group>"; };
+		DBFA4FEF1E42A3B3004DA6E3 /* LAShapeCircle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAShapeCircle.h; sourceTree = "<group>"; };
+		DBFA4FF01E42A3B3004DA6E3 /* LAShapeCircle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAShapeCircle.m; sourceTree = "<group>"; };
+		DBFA4FF11E42A3B3004DA6E3 /* LAShapeFill.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAShapeFill.h; sourceTree = "<group>"; };
+		DBFA4FF21E42A3B3004DA6E3 /* LAShapeFill.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAShapeFill.m; sourceTree = "<group>"; };
+		DBFA4FF31E42A3B3004DA6E3 /* LAShapeGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAShapeGroup.h; sourceTree = "<group>"; };
+		DBFA4FF41E42A3B3004DA6E3 /* LAShapeGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAShapeGroup.m; sourceTree = "<group>"; };
+		DBFA4FF51E42A3B3004DA6E3 /* LAShapeLayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAShapeLayerView.h; sourceTree = "<group>"; };
+		DBFA4FF61E42A3B3004DA6E3 /* LAShapeLayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAShapeLayerView.m; sourceTree = "<group>"; };
+		DBFA4FF71E42A3B3004DA6E3 /* LAShapePath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAShapePath.h; sourceTree = "<group>"; };
+		DBFA4FF81E42A3B3004DA6E3 /* LAShapePath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAShapePath.m; sourceTree = "<group>"; };
+		DBFA4FF91E42A3B3004DA6E3 /* LAShapeRectangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAShapeRectangle.h; sourceTree = "<group>"; };
+		DBFA4FFA1E42A3B3004DA6E3 /* LAShapeRectangle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAShapeRectangle.m; sourceTree = "<group>"; };
+		DBFA4FFB1E42A3B3004DA6E3 /* LAShapeStroke.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAShapeStroke.h; sourceTree = "<group>"; };
+		DBFA4FFC1E42A3B3004DA6E3 /* LAShapeStroke.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAShapeStroke.m; sourceTree = "<group>"; };
+		DBFA4FFD1E42A3B3004DA6E3 /* LAShapeTransform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAShapeTransform.h; sourceTree = "<group>"; };
+		DBFA4FFE1E42A3B3004DA6E3 /* LAShapeTransform.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAShapeTransform.m; sourceTree = "<group>"; };
+		DBFA4FFF1E42A3B3004DA6E3 /* LAShapeTrimPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAShapeTrimPath.h; sourceTree = "<group>"; };
+		DBFA50001E42A3B3004DA6E3 /* LAShapeTrimPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LAShapeTrimPath.m; sourceTree = "<group>"; };
+		DBFA50021E42A3B3004DA6E3 /* LAAnimationTransitionController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAAnimationTransitionController.h; sourceTree = "<group>"; };
+		DBFA50031E42A3B3004DA6E3 /* LAAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LAAnimationView.h; sourceTree = "<group>"; };
+		DBFA50041E42A3B3004DA6E3 /* Lottie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lottie.h; sourceTree = "<group>"; };
+		DBFA50051E42A3B3004DA6E3 /* UIColor+Expanded.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Expanded.h"; sourceTree = "<group>"; };
+		DBFA50061E42A3B3004DA6E3 /* UIColor+Expanded.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Expanded.m"; sourceTree = "<group>"; };
+		DBFA50071E42A3B4004DA6E3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DBFA50081E42A52A004DA6E3 /* TiLottieVectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiLottieVectorView.h; path = Classes/TiLottieVectorView.h; sourceTree = "<group>"; };
+		DBFA50091E42A52A004DA6E3 /* TiLottieVectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiLottieVectorView.m; path = Classes/TiLottieVectorView.m; sourceTree = "<group>"; };
+		DBFA500C1E42A53B004DA6E3 /* TiLottieVectorViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiLottieVectorViewProxy.h; path = Classes/TiLottieVectorViewProxy.h; sourceTree = "<group>"; };
+		DBFA500D1E42A53B004DA6E3 /* TiLottieVectorViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiLottieVectorViewProxy.m; path = Classes/TiLottieVectorViewProxy.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC07E0554694100DB518D /* libti.lottie.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* ti.lottie */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				034768DFFF38A50411DB9C8B /* Products */,
+			);
+			name = ti.lottie;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DBFA4FC01E42A3B3004DA6E3 /* lottie-ios */,
+				DBFA50101E42A554004DA6E3 /* VectorView */,
+				24DE9E0F11C5FE74003F90F6 /* TiLottieModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* TiLottieModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* TiLottieModule.h */,
+				24DD6CF81134B3F500162E58 /* TiLottieModule.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* TiLottie_Prefix.pch */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		DBFA4FC01E42A3B3004DA6E3 /* lottie-ios */ = {
+			isa = PBXGroup;
+			children = (
+				DBFA4FC11E42A3B3004DA6E3 /* LICENSE */,
+				DBFA4FC21E42A3B3004DA6E3 /* Lottie */,
+				DBFA4FC31E42A3B3004DA6E3 /* lottie-ios */,
+				DBFA50071E42A3B4004DA6E3 /* README.md */,
+			);
+			name = "lottie-ios";
+			path = "Classes/lottie-ios";
+			sourceTree = "<group>";
+		};
+		DBFA4FC21E42A3B3004DA6E3 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		DBFA4FC31E42A3B3004DA6E3 /* lottie-ios */ = {
+			isa = PBXGroup;
+			children = (
+				DBFA4FC41E42A3B3004DA6E3 /* Classes */,
+			);
+			path = "lottie-ios";
+			sourceTree = "<group>";
+		};
+		DBFA4FC41E42A3B3004DA6E3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DBFA4FC51E42A3B3004DA6E3 /* CAAnimationGroup+LAAnimatableGroup.h */,
+				DBFA4FC61E42A3B3004DA6E3 /* CAAnimationGroup+LAAnimatableGroup.m */,
+				DBFA4FC71E42A3B3004DA6E3 /* CGGeometryAdditions.h */,
+				DBFA4FC81E42A3B3004DA6E3 /* CGGeometryAdditions.m */,
+				DBFA4FC91E42A3B3004DA6E3 /* LAAnimatableBoundsValue.h */,
+				DBFA4FCA1E42A3B3004DA6E3 /* LAAnimatableBoundsValue.m */,
+				DBFA4FCB1E42A3B3004DA6E3 /* LAAnimatableColorValue.h */,
+				DBFA4FCC1E42A3B3004DA6E3 /* LAAnimatableColorValue.m */,
+				DBFA4FCD1E42A3B3004DA6E3 /* LAAnimatableLayer.h */,
+				DBFA4FCE1E42A3B3004DA6E3 /* LAAnimatableLayer.m */,
+				DBFA4FCF1E42A3B3004DA6E3 /* LAAnimatableNumberValue.h */,
+				DBFA4FD01E42A3B3004DA6E3 /* LAAnimatableNumberValue.m */,
+				DBFA4FD11E42A3B3004DA6E3 /* LAAnimatablePointValue.h */,
+				DBFA4FD21E42A3B3004DA6E3 /* LAAnimatablePointValue.m */,
+				DBFA4FD31E42A3B3004DA6E3 /* LAAnimatableScaleValue.h */,
+				DBFA4FD41E42A3B3004DA6E3 /* LAAnimatableScaleValue.m */,
+				DBFA4FD51E42A3B3004DA6E3 /* LAAnimatableShapeValue.h */,
+				DBFA4FD61E42A3B3004DA6E3 /* LAAnimatableShapeValue.m */,
+				DBFA4FD71E42A3B3004DA6E3 /* LAAnimatableValue.h */,
+				DBFA4FD81E42A3B3004DA6E3 /* LAAnimationCache.h */,
+				DBFA4FD91E42A3B3004DA6E3 /* LAAnimationCache.m */,
+				DBFA4FDA1E42A3B3004DA6E3 /* LAAnimationTransitionController.m */,
+				DBFA4FDB1E42A3B3004DA6E3 /* LAAnimationView.m */,
+				DBFA4FDC1E42A3B3004DA6E3 /* LAAnimationView_Internal.h */,
+				DBFA4FDD1E42A3B3004DA6E3 /* LAComposition.h */,
+				DBFA4FDE1E42A3B3004DA6E3 /* LAComposition.m */,
+				DBFA4FDF1E42A3B3004DA6E3 /* LAEllipseShapeLayer.h */,
+				DBFA4FE01E42A3B3004DA6E3 /* LAEllipseShapeLayer.m */,
+				DBFA4FE11E42A3B3004DA6E3 /* LAGroupLayerView.h */,
+				DBFA4FE21E42A3B3004DA6E3 /* LAGroupLayerView.m */,
+				DBFA4FE31E42A3B3004DA6E3 /* LAHelpers.h */,
+				DBFA4FE41E42A3B3004DA6E3 /* LALayer.h */,
+				DBFA4FE51E42A3B3004DA6E3 /* LALayer.m */,
+				DBFA4FE61E42A3B3004DA6E3 /* LALayerView.h */,
+				DBFA4FE71E42A3B3004DA6E3 /* LALayerView.m */,
+				DBFA4FE81E42A3B3004DA6E3 /* LAMask.h */,
+				DBFA4FE91E42A3B3004DA6E3 /* LAMask.m */,
+				DBFA4FEA1E42A3B3004DA6E3 /* LAMaskLayer.h */,
+				DBFA4FEB1E42A3B3004DA6E3 /* LAMaskLayer.m */,
+				DBFA4FEC1E42A3B3004DA6E3 /* LAModels.h */,
+				DBFA4FED1E42A3B3004DA6E3 /* LARectShapeLayer.h */,
+				DBFA4FEE1E42A3B3004DA6E3 /* LARectShapeLayer.m */,
+				DBFA4FEF1E42A3B3004DA6E3 /* LAShapeCircle.h */,
+				DBFA4FF01E42A3B3004DA6E3 /* LAShapeCircle.m */,
+				DBFA4FF11E42A3B3004DA6E3 /* LAShapeFill.h */,
+				DBFA4FF21E42A3B3004DA6E3 /* LAShapeFill.m */,
+				DBFA4FF31E42A3B3004DA6E3 /* LAShapeGroup.h */,
+				DBFA4FF41E42A3B3004DA6E3 /* LAShapeGroup.m */,
+				DBFA4FF51E42A3B3004DA6E3 /* LAShapeLayerView.h */,
+				DBFA4FF61E42A3B3004DA6E3 /* LAShapeLayerView.m */,
+				DBFA4FF71E42A3B3004DA6E3 /* LAShapePath.h */,
+				DBFA4FF81E42A3B3004DA6E3 /* LAShapePath.m */,
+				DBFA4FF91E42A3B3004DA6E3 /* LAShapeRectangle.h */,
+				DBFA4FFA1E42A3B3004DA6E3 /* LAShapeRectangle.m */,
+				DBFA4FFB1E42A3B3004DA6E3 /* LAShapeStroke.h */,
+				DBFA4FFC1E42A3B3004DA6E3 /* LAShapeStroke.m */,
+				DBFA4FFD1E42A3B3004DA6E3 /* LAShapeTransform.h */,
+				DBFA4FFE1E42A3B3004DA6E3 /* LAShapeTransform.m */,
+				DBFA4FFF1E42A3B3004DA6E3 /* LAShapeTrimPath.h */,
+				DBFA50001E42A3B3004DA6E3 /* LAShapeTrimPath.m */,
+				DBFA50011E42A3B3004DA6E3 /* PublicHeaders */,
+				DBFA50051E42A3B3004DA6E3 /* UIColor+Expanded.h */,
+				DBFA50061E42A3B3004DA6E3 /* UIColor+Expanded.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DBFA50011E42A3B3004DA6E3 /* PublicHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				DBFA50021E42A3B3004DA6E3 /* LAAnimationTransitionController.h */,
+				DBFA50031E42A3B3004DA6E3 /* LAAnimationView.h */,
+				DBFA50041E42A3B3004DA6E3 /* Lottie.h */,
+			);
+			path = PublicHeaders;
+			sourceTree = "<group>";
+		};
+		DBFA50101E42A554004DA6E3 /* VectorView */ = {
+			isa = PBXGroup;
+			children = (
+				DBFA50081E42A52A004DA6E3 /* TiLottieVectorView.h */,
+				DBFA50091E42A52A004DA6E3 /* TiLottieVectorView.m */,
+				DBFA500C1E42A53B004DA6E3 /* TiLottieVectorViewProxy.h */,
+				DBFA500D1E42A53B004DA6E3 /* TiLottieVectorViewProxy.m */,
+			);
+			name = VectorView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBFA500E1E42A53B004DA6E3 /* TiLottieVectorViewProxy.h in Headers */,
+				DBFA500A1E42A52A004DA6E3 /* TiLottieVectorView.h in Headers */,
+				AA747D9F0F9514B9006C5449 /* TiLottie_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* TiLottieModule.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* TiLottieModuleAssets.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* ti.lottie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "ti.lottie" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ti.lottie;
+			productName = ti.lottie;
+			productReference = D2AAC07E0554694100DB518D /* libti.lottie.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "ti.lottie" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* ti.lottie */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* ti.lottie */,
+				24416B8111C4CA220047AFDD /* Build & Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24416B8011C4CA220047AFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DD6CFA1134B3F500162E58 /* TiLottieModule.m in Sources */,
+				DBFA500B1E42A52A004DA6E3 /* TiLottieVectorView.m in Sources */,
+				DBFA500F1E42A53B004DA6E3 /* TiLottieVectorViewProxy.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* TiLottieModuleAssets.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* ti.lottie */;
+			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/TiLottie.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiLottie_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-U__STRICT_ANSI__",
+				);
+				PRODUCT_NAME = ti.lottie;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DSTROOT = /tmp/TiLottie.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiLottie_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-U__STRICT_ANSI__",
+				);
+				PRODUCT_NAME = ti.lottie;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DSTROOT = /tmp/TiLottie.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiLottie_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-DDEBUG",
+					"-DTI_POST_1_2",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ti.lottie;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LIBRARY = "libstdc++";
+				DSTROOT = /tmp/TiLottie.dst;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TiLottie_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "TI_VERSION=$(TI_VERSION)";
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = NO;
+				GCC_WARN_MISSING_PARENTHESES = NO;
+				GCC_WARN_SHADOW = NO;
+				GCC_WARN_STRICT_SELECTOR_MATCH = NO;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_PARAMETER = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DTI_POST_1_2";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = ti.lottie;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		24416B8211C4CA220047AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build & test";
+			};
+			name = Debug;
+		};
+		24416B8311C4CA220047AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build & test";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "ti.lottie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "ti.lottie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24416B8211C4CA220047AFDD /* Debug */,
+				24416B8311C4CA220047AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
