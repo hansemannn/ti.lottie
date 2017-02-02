@@ -12,9 +12,9 @@
 
 @implementation TiLottieVectorViewProxy
 
-- (TiLottieVectorView *)vectorView
+- (LAAnimationView *)animationView
 {
-    return (TiLottieVectorView *)[self view];
+    return [(TiLottieVectorView *)[self view] animationView];
 }
 
 - (void)startAnimation:(id)args
@@ -25,21 +25,64 @@
         KrollCallback *callback = nil;
         ENSURE_ARG_AT_INDEX(callback, args, 0, KrollCallback);
         
-        [[[self vectorView] animationView] playWithCompletion:^(BOOL animationFinished) {
+        [[self animationView] playWithCompletion:^(BOOL animationFinished) {
             NSDictionary *propertiesDict = @{@"finished": NUMBOOL(animationFinished)};
             NSArray *invocationArray = [[NSArray alloc] initWithObjects:&propertiesDict count:1];
             
             [callback call:invocationArray thisObject:self];
         }];
     } else {
-        [[[self vectorView] animationView] play];
+        [[self animationView] play];
     }
 }
 
 - (void)pauseAnimation:(id)unused
 {
     ENSURE_UI_THREAD(pauseAnimation, unused);
-    [[[self vectorView] animationView] pause];
+    [[self animationView] pause];
+}
+
+- (void)setAnimationProgress:(NSNumber *)progress
+{
+    ENSURE_UI_THREAD(setAnimationProgress, progress);
+    [[self animationView] setAnimationProgress:[TiUtils floatValue:progress]];
+}
+
+- (NSNumber *)animationProgress
+{
+    return NUMFLOAT([[self animationView] animationProgress]);
+}
+
+- (void)setAnimationSpeed:(NSNumber *)progress
+{
+    ENSURE_UI_THREAD(setAnimationSpeed, progress);
+    [[self animationView] setAnimationSpeed:[TiUtils floatValue:progress]];
+}
+
+- (NSNumber *)animationSpeed
+{
+    return NUMFLOAT([[self animationView] animationSpeed]);
+}
+
+- (void)setLoopAnimation:(NSNumber *)progress
+{
+    ENSURE_UI_THREAD(setLoopAnimation, progress);
+    [[self animationView] setLoopAnimation:[TiUtils boolValue:progress]];
+}
+
+- (NSNumber *)loopAnimation
+{
+    return NUMBOOL([[self animationView] loopAnimation]);
+}
+
+- (NSNumber *)isAnimationPlaying:(id)unused
+{
+    return NUMBOOL([[self animationView] isAnimationPlaying]);
+}
+
+- (NSNumber *)animationDuration
+{
+    return NUMFLOAT([[self animationView] animationDuration]);
 }
 
 @end

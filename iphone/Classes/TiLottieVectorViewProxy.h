@@ -10,4 +10,24 @@
 
 }
 
+- (void)startAnimation:(id)args;
+
+- (void)pauseAnimation:(id)unused;
+
+- (void)setAnimationProgress:(NSNumber *)progress;
+
+- (NSNumber *)animationProgress;
+
+- (void)setAnimationSpeed:(NSNumber *)progress;
+
+- (NSNumber *)animationSpeed;
+
+- (void)setLoopAnimation:(NSNumber *)progress;
+
+- (NSNumber *)loopAnimation;
+
+- (NSNumber *)isAnimationPlaying:(id)unused;
+
+- (NSNumber *)animationDuration;
+
 @end
