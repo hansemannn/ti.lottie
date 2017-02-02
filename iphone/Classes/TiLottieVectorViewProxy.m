@@ -17,6 +17,8 @@
     return [(TiLottieVectorView *)[self view] animationView];
 }
 
+#pragma mark Public APIs
+
 - (void)startAnimation:(id)args
 {
     ENSURE_UI_THREAD(startAnimation, args);
@@ -40,6 +42,23 @@
 {
     ENSURE_UI_THREAD(pauseAnimation, unused);
     [[self animationView] pause];
+}
+
+- (void)addViewToLayer:(id)args
+{
+    ENSURE_UI_THREAD(addViewToLayer, args);
+    ENSURE_SINGLE_ARG(args, NSDictionary);
+    
+    id viewProxy = [args objectForKey:@"view"];
+    id layerName = [args objectForKey:@"layer"];
+    
+    ENSURE_TYPE(viewProxy, TiViewProxy);
+    ENSURE_TYPE(layerName, NSString);
+    
+    [self rememberProxy:viewProxy];
+    
+    [[self animationView] addSubview:[viewProxy view]
+                        toLayerNamed:layerName];
 }
 
 - (void)setAnimationProgress:(NSNumber *)progress

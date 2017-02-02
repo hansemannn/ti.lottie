@@ -16,6 +16,8 @@
 
 - (void)setAnimationProgress:(NSNumber *)progress;
 
+- (void)addViewToLayer:(id)args;
+
 - (NSNumber *)animationProgress;
 
 - (void)setAnimationSpeed:(NSNumber *)progress;

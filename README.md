@@ -2,8 +2,8 @@
 
  Summary
 ---------------
-Ti.Lottie is an open-source project to support the Airbnb Lottie library in Appcelerator's 
-Titanium Mobile. The module is currently supports starting, pausing an animation.
+Ti.Lottie is an open-source project to support the Airbnb Lottie library in Appcelerator Titanium. 
+The module supports all available API's, like starting, pausing and interacting with the view.
 
 Requirements
 ---------------
@@ -35,6 +35,14 @@ vectorView.startAnimation(function(e) {
 - [x] Pause a running animation:
 ```js
 vectorView.pauseAnimation();
+```
+
+- [x] (Advanced) Add a view to a layer class:
+```js
+vectorView.addViewToLayer({
+    view: myTitaniumView
+    layer: "JumpLayer"
+});
 ```
 
 Example
