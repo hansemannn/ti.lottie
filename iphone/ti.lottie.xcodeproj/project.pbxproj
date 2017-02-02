@@ -28,6 +28,71 @@
 		24DE9E1211C5FE74003F90F6 /* TiLottieModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* TiLottieModuleAssets.m */; };
 		AA747D9F0F9514B9006C5449 /* TiLottie_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* TiLottie_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+		DBD9FACB1E43478400C7A012 /* CAAnimationGroup+LAAnimatableGroup.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FC51E42A3B3004DA6E3 /* CAAnimationGroup+LAAnimatableGroup.h */; };
+		DBD9FACC1E43478400C7A012 /* CAAnimationGroup+LAAnimatableGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FC61E42A3B3004DA6E3 /* CAAnimationGroup+LAAnimatableGroup.m */; };
+		DBD9FACD1E43478400C7A012 /* CGGeometryAdditions.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FC71E42A3B3004DA6E3 /* CGGeometryAdditions.h */; };
+		DBD9FACE1E43478400C7A012 /* CGGeometryAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FC81E42A3B3004DA6E3 /* CGGeometryAdditions.m */; };
+		DBD9FACF1E43478400C7A012 /* LAAnimatableBoundsValue.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FC91E42A3B3004DA6E3 /* LAAnimatableBoundsValue.h */; };
+		DBD9FAD01E43478400C7A012 /* LAAnimatableBoundsValue.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FCA1E42A3B3004DA6E3 /* LAAnimatableBoundsValue.m */; };
+		DBD9FAD11E43478400C7A012 /* LAAnimatableColorValue.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FCB1E42A3B3004DA6E3 /* LAAnimatableColorValue.h */; };
+		DBD9FAD21E43478400C7A012 /* LAAnimatableColorValue.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FCC1E42A3B3004DA6E3 /* LAAnimatableColorValue.m */; };
+		DBD9FAD31E43478400C7A012 /* LAAnimatableLayer.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FCD1E42A3B3004DA6E3 /* LAAnimatableLayer.h */; };
+		DBD9FAD41E43478400C7A012 /* LAAnimatableLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FCE1E42A3B3004DA6E3 /* LAAnimatableLayer.m */; };
+		DBD9FAD51E43478400C7A012 /* LAAnimatableNumberValue.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FCF1E42A3B3004DA6E3 /* LAAnimatableNumberValue.h */; };
+		DBD9FAD61E43478400C7A012 /* LAAnimatableNumberValue.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FD01E42A3B3004DA6E3 /* LAAnimatableNumberValue.m */; };
+		DBD9FAD71E43478400C7A012 /* LAAnimatablePointValue.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FD11E42A3B3004DA6E3 /* LAAnimatablePointValue.h */; };
+		DBD9FAD81E43478400C7A012 /* LAAnimatablePointValue.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FD21E42A3B3004DA6E3 /* LAAnimatablePointValue.m */; };
+		DBD9FAD91E43478400C7A012 /* LAAnimatableScaleValue.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FD31E42A3B3004DA6E3 /* LAAnimatableScaleValue.h */; };
+		DBD9FADA1E43478400C7A012 /* LAAnimatableScaleValue.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FD41E42A3B3004DA6E3 /* LAAnimatableScaleValue.m */; };
+		DBD9FADB1E43478400C7A012 /* LAAnimatableShapeValue.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FD51E42A3B3004DA6E3 /* LAAnimatableShapeValue.h */; };
+		DBD9FADC1E43478400C7A012 /* LAAnimatableShapeValue.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FD61E42A3B3004DA6E3 /* LAAnimatableShapeValue.m */; };
+		DBD9FADD1E43478400C7A012 /* LAAnimatableValue.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FD71E42A3B3004DA6E3 /* LAAnimatableValue.h */; };
+		DBD9FADE1E43478400C7A012 /* LAAnimationCache.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FD81E42A3B3004DA6E3 /* LAAnimationCache.h */; };
+		DBD9FADF1E43478400C7A012 /* LAAnimationCache.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FD91E42A3B3004DA6E3 /* LAAnimationCache.m */; };
+		DBD9FAE01E43478400C7A012 /* LAAnimationTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FDA1E42A3B3004DA6E3 /* LAAnimationTransitionController.m */; };
+		DBD9FAE11E43478400C7A012 /* LAAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FDB1E42A3B3004DA6E3 /* LAAnimationView.m */; };
+		DBD9FAE21E43478400C7A012 /* LAAnimationView_Internal.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FDC1E42A3B3004DA6E3 /* LAAnimationView_Internal.h */; };
+		DBD9FAE31E43478400C7A012 /* LAComposition.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FDD1E42A3B3004DA6E3 /* LAComposition.h */; };
+		DBD9FAE41E43478400C7A012 /* LAComposition.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FDE1E42A3B3004DA6E3 /* LAComposition.m */; };
+		DBD9FAE51E43478400C7A012 /* LAEllipseShapeLayer.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FDF1E42A3B3004DA6E3 /* LAEllipseShapeLayer.h */; };
+		DBD9FAE61E43478400C7A012 /* LAEllipseShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FE01E42A3B3004DA6E3 /* LAEllipseShapeLayer.m */; };
+		DBD9FAE71E43478400C7A012 /* LAGroupLayerView.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FE11E42A3B3004DA6E3 /* LAGroupLayerView.h */; };
+		DBD9FAE81E43478400C7A012 /* LAGroupLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FE21E42A3B3004DA6E3 /* LAGroupLayerView.m */; };
+		DBD9FAE91E43478400C7A012 /* LAHelpers.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FE31E42A3B3004DA6E3 /* LAHelpers.h */; };
+		DBD9FAEA1E43478400C7A012 /* LALayer.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FE41E42A3B3004DA6E3 /* LALayer.h */; };
+		DBD9FAEB1E43478400C7A012 /* LALayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FE51E42A3B3004DA6E3 /* LALayer.m */; };
+		DBD9FAEC1E43478400C7A012 /* LALayerView.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FE61E42A3B3004DA6E3 /* LALayerView.h */; };
+		DBD9FAED1E43478400C7A012 /* LALayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FE71E42A3B3004DA6E3 /* LALayerView.m */; };
+		DBD9FAEE1E43478400C7A012 /* LAMask.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FE81E42A3B3004DA6E3 /* LAMask.h */; };
+		DBD9FAEF1E43478400C7A012 /* LAMask.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FE91E42A3B3004DA6E3 /* LAMask.m */; };
+		DBD9FAF01E43478400C7A012 /* LAMaskLayer.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FEA1E42A3B3004DA6E3 /* LAMaskLayer.h */; };
+		DBD9FAF11E43478400C7A012 /* LAMaskLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FEB1E42A3B3004DA6E3 /* LAMaskLayer.m */; };
+		DBD9FAF21E43478400C7A012 /* LAModels.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FEC1E42A3B3004DA6E3 /* LAModels.h */; };
+		DBD9FAF31E43478400C7A012 /* LARectShapeLayer.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FED1E42A3B3004DA6E3 /* LARectShapeLayer.h */; };
+		DBD9FAF41E43478400C7A012 /* LARectShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FEE1E42A3B3004DA6E3 /* LARectShapeLayer.m */; };
+		DBD9FAF51E43478400C7A012 /* LAShapeCircle.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FEF1E42A3B3004DA6E3 /* LAShapeCircle.h */; };
+		DBD9FAF61E43478400C7A012 /* LAShapeCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FF01E42A3B3004DA6E3 /* LAShapeCircle.m */; };
+		DBD9FAF71E43478400C7A012 /* LAShapeFill.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FF11E42A3B3004DA6E3 /* LAShapeFill.h */; };
+		DBD9FAF81E43478400C7A012 /* LAShapeFill.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FF21E42A3B3004DA6E3 /* LAShapeFill.m */; };
+		DBD9FAF91E43478400C7A012 /* LAShapeGroup.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FF31E42A3B3004DA6E3 /* LAShapeGroup.h */; };
+		DBD9FAFA1E43478400C7A012 /* LAShapeGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FF41E42A3B3004DA6E3 /* LAShapeGroup.m */; };
+		DBD9FAFB1E43478400C7A012 /* LAShapeLayerView.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FF51E42A3B3004DA6E3 /* LAShapeLayerView.h */; };
+		DBD9FAFC1E43478400C7A012 /* LAShapeLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FF61E42A3B3004DA6E3 /* LAShapeLayerView.m */; };
+		DBD9FAFD1E43478400C7A012 /* LAShapePath.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FF71E42A3B3004DA6E3 /* LAShapePath.h */; };
+		DBD9FAFE1E43478400C7A012 /* LAShapePath.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FF81E42A3B3004DA6E3 /* LAShapePath.m */; };
+		DBD9FAFF1E43478400C7A012 /* LAShapeRectangle.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FF91E42A3B3004DA6E3 /* LAShapeRectangle.h */; };
+		DBD9FB001E43478400C7A012 /* LAShapeRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FFA1E42A3B3004DA6E3 /* LAShapeRectangle.m */; };
+		DBD9FB011E43478400C7A012 /* LAShapeStroke.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FFB1E42A3B3004DA6E3 /* LAShapeStroke.h */; };
+		DBD9FB021E43478400C7A012 /* LAShapeStroke.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FFC1E42A3B3004DA6E3 /* LAShapeStroke.m */; };
+		DBD9FB031E43478400C7A012 /* LAShapeTransform.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FFD1E42A3B3004DA6E3 /* LAShapeTransform.h */; };
+		DBD9FB041E43478400C7A012 /* LAShapeTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FFE1E42A3B3004DA6E3 /* LAShapeTransform.m */; };
+		DBD9FB051E43478400C7A012 /* LAShapeTrimPath.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA4FFF1E42A3B3004DA6E3 /* LAShapeTrimPath.h */; };
+		DBD9FB061E43478400C7A012 /* LAShapeTrimPath.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA50001E42A3B3004DA6E3 /* LAShapeTrimPath.m */; };
+		DBD9FB071E43478400C7A012 /* LAAnimationTransitionController.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA50021E42A3B3004DA6E3 /* LAAnimationTransitionController.h */; };
+		DBD9FB081E43478400C7A012 /* LAAnimationView.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA50031E42A3B3004DA6E3 /* LAAnimationView.h */; };
+		DBD9FB091E43478400C7A012 /* Lottie.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA50041E42A3B3004DA6E3 /* Lottie.h */; };
+		DBD9FB0A1E43478400C7A012 /* UIColor+Expanded.h in Sources */ = {isa = PBXBuildFile; fileRef = DBFA50051E42A3B3004DA6E3 /* UIColor+Expanded.h */; };
+		DBD9FB0B1E43478400C7A012 /* UIColor+Expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA50061E42A3B3004DA6E3 /* UIColor+Expanded.m */; };
 		DBFA500A1E42A52A004DA6E3 /* TiLottieVectorView.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFA50081E42A52A004DA6E3 /* TiLottieVectorView.h */; };
 		DBFA500B1E42A52A004DA6E3 /* TiLottieVectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBFA50091E42A52A004DA6E3 /* TiLottieVectorView.m */; };
 		DBFA500E1E42A53B004DA6E3 /* TiLottieVectorViewProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFA500C1E42A53B004DA6E3 /* TiLottieVectorViewProxy.h */; };
@@ -390,6 +455,71 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBD9FACB1E43478400C7A012 /* CAAnimationGroup+LAAnimatableGroup.h in Sources */,
+				DBD9FACC1E43478400C7A012 /* CAAnimationGroup+LAAnimatableGroup.m in Sources */,
+				DBD9FACD1E43478400C7A012 /* CGGeometryAdditions.h in Sources */,
+				DBD9FACE1E43478400C7A012 /* CGGeometryAdditions.m in Sources */,
+				DBD9FACF1E43478400C7A012 /* LAAnimatableBoundsValue.h in Sources */,
+				DBD9FAD01E43478400C7A012 /* LAAnimatableBoundsValue.m in Sources */,
+				DBD9FAD11E43478400C7A012 /* LAAnimatableColorValue.h in Sources */,
+				DBD9FAD21E43478400C7A012 /* LAAnimatableColorValue.m in Sources */,
+				DBD9FAD31E43478400C7A012 /* LAAnimatableLayer.h in Sources */,
+				DBD9FAD41E43478400C7A012 /* LAAnimatableLayer.m in Sources */,
+				DBD9FAD51E43478400C7A012 /* LAAnimatableNumberValue.h in Sources */,
+				DBD9FAD61E43478400C7A012 /* LAAnimatableNumberValue.m in Sources */,
+				DBD9FAD71E43478400C7A012 /* LAAnimatablePointValue.h in Sources */,
+				DBD9FAD81E43478400C7A012 /* LAAnimatablePointValue.m in Sources */,
+				DBD9FAD91E43478400C7A012 /* LAAnimatableScaleValue.h in Sources */,
+				DBD9FADA1E43478400C7A012 /* LAAnimatableScaleValue.m in Sources */,
+				DBD9FADB1E43478400C7A012 /* LAAnimatableShapeValue.h in Sources */,
+				DBD9FADC1E43478400C7A012 /* LAAnimatableShapeValue.m in Sources */,
+				DBD9FADD1E43478400C7A012 /* LAAnimatableValue.h in Sources */,
+				DBD9FADE1E43478400C7A012 /* LAAnimationCache.h in Sources */,
+				DBD9FADF1E43478400C7A012 /* LAAnimationCache.m in Sources */,
+				DBD9FAE01E43478400C7A012 /* LAAnimationTransitionController.m in Sources */,
+				DBD9FAE11E43478400C7A012 /* LAAnimationView.m in Sources */,
+				DBD9FAE21E43478400C7A012 /* LAAnimationView_Internal.h in Sources */,
+				DBD9FAE31E43478400C7A012 /* LAComposition.h in Sources */,
+				DBD9FAE41E43478400C7A012 /* LAComposition.m in Sources */,
+				DBD9FAE51E43478400C7A012 /* LAEllipseShapeLayer.h in Sources */,
+				DBD9FAE61E43478400C7A012 /* LAEllipseShapeLayer.m in Sources */,
+				DBD9FAE71E43478400C7A012 /* LAGroupLayerView.h in Sources */,
+				DBD9FAE81E43478400C7A012 /* LAGroupLayerView.m in Sources */,
+				DBD9FAE91E43478400C7A012 /* LAHelpers.h in Sources */,
+				DBD9FAEA1E43478400C7A012 /* LALayer.h in Sources */,
+				DBD9FAEB1E43478400C7A012 /* LALayer.m in Sources */,
+				DBD9FAEC1E43478400C7A012 /* LALayerView.h in Sources */,
+				DBD9FAED1E43478400C7A012 /* LALayerView.m in Sources */,
+				DBD9FAEE1E43478400C7A012 /* LAMask.h in Sources */,
+				DBD9FAEF1E43478400C7A012 /* LAMask.m in Sources */,
+				DBD9FAF01E43478400C7A012 /* LAMaskLayer.h in Sources */,
+				DBD9FAF11E43478400C7A012 /* LAMaskLayer.m in Sources */,
+				DBD9FAF21E43478400C7A012 /* LAModels.h in Sources */,
+				DBD9FAF31E43478400C7A012 /* LARectShapeLayer.h in Sources */,
+				DBD9FAF41E43478400C7A012 /* LARectShapeLayer.m in Sources */,
+				DBD9FAF51E43478400C7A012 /* LAShapeCircle.h in Sources */,
+				DBD9FAF61E43478400C7A012 /* LAShapeCircle.m in Sources */,
+				DBD9FAF71E43478400C7A012 /* LAShapeFill.h in Sources */,
+				DBD9FAF81E43478400C7A012 /* LAShapeFill.m in Sources */,
+				DBD9FAF91E43478400C7A012 /* LAShapeGroup.h in Sources */,
+				DBD9FAFA1E43478400C7A012 /* LAShapeGroup.m in Sources */,
+				DBD9FAFB1E43478400C7A012 /* LAShapeLayerView.h in Sources */,
+				DBD9FAFC1E43478400C7A012 /* LAShapeLayerView.m in Sources */,
+				DBD9FAFD1E43478400C7A012 /* LAShapePath.h in Sources */,
+				DBD9FAFE1E43478400C7A012 /* LAShapePath.m in Sources */,
+				DBD9FAFF1E43478400C7A012 /* LAShapeRectangle.h in Sources */,
+				DBD9FB001E43478400C7A012 /* LAShapeRectangle.m in Sources */,
+				DBD9FB011E43478400C7A012 /* LAShapeStroke.h in Sources */,
+				DBD9FB021E43478400C7A012 /* LAShapeStroke.m in Sources */,
+				DBD9FB031E43478400C7A012 /* LAShapeTransform.h in Sources */,
+				DBD9FB041E43478400C7A012 /* LAShapeTransform.m in Sources */,
+				DBD9FB051E43478400C7A012 /* LAShapeTrimPath.h in Sources */,
+				DBD9FB061E43478400C7A012 /* LAShapeTrimPath.m in Sources */,
+				DBD9FB071E43478400C7A012 /* LAAnimationTransitionController.h in Sources */,
+				DBD9FB081E43478400C7A012 /* LAAnimationView.h in Sources */,
+				DBD9FB091E43478400C7A012 /* Lottie.h in Sources */,
+				DBD9FB0A1E43478400C7A012 /* UIColor+Expanded.h in Sources */,
+				DBD9FB0B1E43478400C7A012 /* UIColor+Expanded.m in Sources */,
 				24DD6CFA1134B3F500162E58 /* TiLottieModule.m in Sources */,
 				DBFA500B1E42A52A004DA6E3 /* TiLottieVectorView.m in Sources */,
 				DBFA500F1E42A53B004DA6E3 /* TiLottieVectorViewProxy.m in Sources */,
@@ -416,7 +546,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DSTROOT = /tmp/TiLottie.dst;
-				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TiLottie_Prefix.pch;
@@ -458,7 +588,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				DSTROOT = /tmp/TiLottie.dst;
-				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = TiLottie_Prefix.pch;

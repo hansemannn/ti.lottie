@@ -5,7 +5,8 @@
  * Please see the LICENSE included with this distribution for details.
  */
 #import "TiUIView.h"
-#import "LAAnimationView.h"
+
+@class LAAnimationView;
 
 @interface TiLottieVectorView : TiUIView {
     LAAnimationView *animationView;

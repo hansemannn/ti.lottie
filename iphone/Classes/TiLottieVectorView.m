@@ -6,13 +6,14 @@
  */
 
 #import "TiLottieVectorView.h"
+#import "LAAnimationView.h"
 
 @implementation TiLottieVectorView
 
 - (LAAnimationView *)animationView
 {
     if (animationView == nil) {
-        id resource = [self valueForKey:@"resource"];
+        id resource = [[self proxy] valueForKey:@"resource"];
         ENSURE_TYPE(resource, NSString);
         
         animationView = [LAAnimationView animationNamed:resource];
