@@ -14,7 +14,7 @@ Requirements
 Features
 ---------------
 - [x] Create a new vector view:
-```
+```js
 var vectorView = Lottie.createVectorView({
     resource: 'PinJump' // In this case a JSON file, without prefix
 })
