@@ -1,5 +1,7 @@
 # 🖼 Ti.Lottie
 
+[![Contact](http://hans-knoechel.de/shields/shield-twitter.svg)](http://twitter.com/hansemannnn)
+
  Summary
 ---------------
 Ti.Lottie is an open-source project to support the [Airbnb Lottie library](https://github.com/airbnb/lottie-ios) in Appcelerator Titanium. 
