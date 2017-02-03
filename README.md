@@ -2,7 +2,7 @@
 
  Summary
 ---------------
-Ti.Lottie is an open-source project to support the Airbnb Lottie library in Appcelerator Titanium. 
+Ti.Lottie is an open-source project to support the [Airbnb Lottie library](https://github.com/airbnb/lottie-ios) in Appcelerator Titanium. 
 The module supports all available API's, like starting, pausing and interacting with the view.
 
 Requirements
@@ -16,7 +16,7 @@ Features
 - [x] Create a new vector view:
 ```js
 var vectorView = Lottie.createVectorView({
-    resource: 'PinJump' // In this case a JSON file, without prefix
+    resource: 'PinJump' // In this case a JSON file, without extension-suffix
 })
 ```
 
