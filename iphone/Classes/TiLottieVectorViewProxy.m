@@ -7,7 +7,7 @@
 
 #import "TiLottieVectorViewProxy.h"
 #import "TiLottieVectorView.h"
-#import "LAAnimationView.h"
+#import "Lottie.h"
 #import "TiUtils.h"
 
 @implementation TiLottieVectorViewProxy
@@ -61,45 +61,54 @@
                         toLayerNamed:layerName];
 }
 
-- (void)setAnimationProgress:(NSNumber *)progress
+- (void)setAnimationProgress:(id)progress
 {
     ENSURE_UI_THREAD(setAnimationProgress, progress);
+    ENSURE_TYPE(progress, NSNumber);
+    
     [[self animationView] setAnimationProgress:[TiUtils floatValue:progress]];
+    [self replaceValue:progress forKey:@"progress" notification:NO];
 }
 
-- (NSNumber *)animationProgress
+- (id)animationProgress
 {
     return NUMFLOAT([[self animationView] animationProgress]);
 }
 
-- (void)setAnimationSpeed:(NSNumber *)progress
+- (void)setAnimationSpeed:(id)speed
 {
-    ENSURE_UI_THREAD(setAnimationSpeed, progress);
-    [[self animationView] setAnimationSpeed:[TiUtils floatValue:progress]];
+    ENSURE_UI_THREAD(setAnimationSpeed, speed);
+    ENSURE_TYPE(speed, NSNumber);
+
+    [[self animationView] setAnimationSpeed:[TiUtils floatValue:speed]];
+    [self replaceValue:speed forKey:@"speed" notification:NO];
 }
 
-- (NSNumber *)animationSpeed
+- (id)animationSpeed
 {
     return NUMFLOAT([[self animationView] animationSpeed]);
 }
 
-- (void)setLoopAnimation:(NSNumber *)progress
+- (void)setLoopAnimation:(id)loopAnimation
 {
-    ENSURE_UI_THREAD(setLoopAnimation, progress);
-    [[self animationView] setLoopAnimation:[TiUtils boolValue:progress]];
+    ENSURE_UI_THREAD(setLoopAnimation, loopAnimation);
+    ENSURE_TYPE(loopAnimation, NSNumber);
+    
+    [[self animationView] setLoopAnimation:[TiUtils boolValue:loopAnimation]];
+    [self replaceValue:loopAnimation forKey:@"loopAnimation" notification:NO];
 }
 
-- (NSNumber *)loopAnimation
+- (id)loopAnimation
 {
     return NUMBOOL([[self animationView] loopAnimation]);
 }
 
-- (NSNumber *)isAnimationPlaying:(id)unused
+- (id)isAnimationPlaying:(id)unused
 {
     return NUMBOOL([[self animationView] isAnimationPlaying]);
 }
 
-- (NSNumber *)animationDuration
+- (id)animationDuration
 {
     return NUMFLOAT([[self animationView] animationDuration]);
 }

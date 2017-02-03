@@ -6,7 +6,7 @@
  */
 
 #import "TiLottieVectorView.h"
-#import "LAAnimationView.h"
+#import "Lottie.h"
 
 @implementation TiLottieVectorView
 

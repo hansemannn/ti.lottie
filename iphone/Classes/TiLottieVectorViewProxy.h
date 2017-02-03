@@ -14,22 +14,22 @@
 
 - (void)pauseAnimation:(id)unused;
 
-- (void)setAnimationProgress:(NSNumber *)progress;
+- (void)setAnimationProgress:(id)progress;
 
 - (void)addViewToLayer:(id)args;
 
-- (NSNumber *)animationProgress;
+- (id)animationProgress;
 
-- (void)setAnimationSpeed:(NSNumber *)progress;
+- (void)setAnimationSpeed:(id)speed;
 
-- (NSNumber *)animationSpeed;
+- (id)animationSpeed;
 
-- (void)setLoopAnimation:(NSNumber *)progress;
+- (void)setLoopAnimation:(id)loopAnimation;
 
-- (NSNumber *)loopAnimation;
+- (id)loopAnimation;
 
-- (NSNumber *)isAnimationPlaying:(id)unused;
+- (id)isAnimationPlaying:(id)unused;
 
-- (NSNumber *)animationDuration;
+- (id)animationDuration;
 
 @end

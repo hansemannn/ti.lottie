@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E0EFFDD996B5628057D782F6892122E587694F7F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "63600FF07CAC4A2B521A9BCC4448135ABF3B8CB3" : 9223372036854775807,
+    "E0EFFDD996B5628057D782F6892122E587694F7F" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "67318010-BD6C-46F7-AB2A-0D2A07F32D23",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "63600FF07CAC4A2B521A9BCC4448135ABF3B8CB3" : "..\/xcode_tests\/lottie-ios",
+    "E0EFFDD996B5628057D782F6892122E587694F7F" : "ti.lottie\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ti.lottie",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iphone\/ti.lottie.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:hansemannn\/lottie-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "63600FF07CAC4A2B521A9BCC4448135ABF3B8CB3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:hansemannn\/ti.lottie.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E0EFFDD996B5628057D782F6892122E587694F7F"
+    }
+  ]
+}
