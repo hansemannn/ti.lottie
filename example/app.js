@@ -12,7 +12,7 @@ var nav = Ti.UI.iOS.createNavigationWindow({
 
 var view = TiLottie.createVectorView({
     resource: 'PinJump',
-  
+    contentMode: 'aspectFit',
     // Not required, but recommended for better sizing
     // Check the "w" and "h" params in the JSON file to get the source rect
     width: 150,
