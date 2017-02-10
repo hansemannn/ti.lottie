@@ -9,7 +9,7 @@
 #import "TiBase.h"
 #import "TiHost.h"
 #import "TiUtils.h"
-#import "LAAnimationView.h"
+#import "LOTAnimationView.h"
 
 @implementation TiLottieModule
 

@@ -10,13 +10,29 @@
 
 @implementation TiLottieVectorView
 
-- (LAAnimationView *)animationView
+- (LOTAnimationView *)animationView
 {
     if (animationView == nil) {
         id resource = [[self proxy] valueForKey:@"resource"];
+        id mode = [[self proxy] valueForKey:@"contentMode"];
         ENSURE_TYPE(resource, NSString);
+        ENSURE_TYPE(mode, NSString);
         
-        animationView = [LAAnimationView animationNamed:resource];
+        animationView = [LOTAnimationView animationNamed:resource];
+        
+        if ([mode isEqual: @"aspectFit"]) {
+            animationView.contentMode = UIViewContentModeScaleAspectFit;
+        } else if ([mode isEqual: @"aspectFill"]) {
+            animationView.contentMode = UIViewContentModeScaleAspectFill;
+        } else if ([mode isEqual: @"scaleFill"]) {
+            animationView.contentMode = UIViewContentModeScaleToFill;
+        } else {
+            TiLogMessage(@"contentMode not valid (aspectFit, aspectFill or scaleFill), defaulting to aspectFit");
+            animationView.contentMode = UIViewContentModeScaleAspectFit;
+        }
+        
+        animationView.frame = self.bounds;
+        
         [self addSubview:animationView];
     }
     

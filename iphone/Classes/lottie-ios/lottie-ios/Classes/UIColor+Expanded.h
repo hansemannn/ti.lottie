@@ -1,4 +1,4 @@
-#import <UIKit/UIKit.h>
+#import "LOTPlatformCompat.h"
 
 // From http://github.com/ars/uicolor-utilities
 #define CLAMP(val,min,max)    MIN(MAX(val,min),max)
@@ -13,39 +13,39 @@
 @property (nonatomic, readonly) CGFloat alpha;
 @property (nonatomic, readonly) UInt32 rgbHex;
 
-- (NSString *)colorSpaceString;
+- (NSString *)LOT_colorSpaceString;
 
-- (NSArray *)arrayFromRGBAComponents;
+- (NSArray *)LOT_arrayFromRGBAComponents;
 
-- (BOOL)red:(CGFloat *)r green:(CGFloat *)g blue:(CGFloat *)b alpha:(CGFloat *)a;
+- (BOOL)LOT_red:(CGFloat *)r green:(CGFloat *)g blue:(CGFloat *)b alpha:(CGFloat *)a;
 
-- (UIColor *)colorByLuminanceMapping;
+- (UIColor *)LOT_colorByLuminanceMapping;
 
-- (UIColor *)colorByMultiplyingByRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue alpha:(CGFloat)alpha;
-- (UIColor *)       colorByAddingRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue alpha:(CGFloat)alpha;
-- (UIColor *) colorByLighteningToRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue alpha:(CGFloat)alpha;
-- (UIColor *)  colorByDarkeningToRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue alpha:(CGFloat)alpha;
+- (UIColor *)LOT_colorByMultiplyingByRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue alpha:(CGFloat)alpha;
+- (UIColor *)       LOT_colorByAddingRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue alpha:(CGFloat)alpha;
+- (UIColor *) LOT_colorByLighteningToRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue alpha:(CGFloat)alpha;
+- (UIColor *)  LOT_colorByDarkeningToRed:(CGFloat)red green:(CGFloat)green blue:(CGFloat)blue alpha:(CGFloat)alpha;
 
-- (UIColor *)colorByMultiplyingBy:(CGFloat)f;
-- (UIColor *)       colorByAdding:(CGFloat)f;
-- (UIColor *) colorByLighteningTo:(CGFloat)f;
-- (UIColor *)  colorByDarkeningTo:(CGFloat)f;
+- (UIColor *)LOT_colorByMultiplyingBy:(CGFloat)f;
+- (UIColor *)       LOT_colorByAdding:(CGFloat)f;
+- (UIColor *) LOT_colorByLighteningTo:(CGFloat)f;
+- (UIColor *)  LOT_colorByDarkeningTo:(CGFloat)f;
 
-- (UIColor *)colorByMultiplyingByColor:(UIColor *)color;
-- (UIColor *)       colorByAddingColor:(UIColor *)color;
-- (UIColor *) colorByLighteningToColor:(UIColor *)color;
-- (UIColor *)  colorByDarkeningToColor:(UIColor *)color;
+- (UIColor *)LOT_colorByMultiplyingByColor:(UIColor *)color;
+- (UIColor *)       LOT_colorByAddingColor:(UIColor *)color;
+- (UIColor *) LOT_colorByLighteningToColor:(UIColor *)color;
+- (UIColor *)  LOT_colorByDarkeningToColor:(UIColor *)color;
 
-- (NSString *)stringFromColor;
-- (NSString *)hexStringValue;
+- (NSString *)LOT_stringFromColor;
+- (NSString *)LOT_hexStringValue;
 
-+ (UIColor *)randomColor;
-+ (UIColor *)colorWithString:(NSString *)stringToConvert;
-+ (UIColor *)colorWithRGBHex:(UInt32)hex;
-+ (UIColor *)colorWithHexString:(NSString *)stringToConvert;
++ (UIColor *)LOT_randomColor;
++ (UIColor *)LOT_colorWithString:(NSString *)stringToConvert;
++ (UIColor *)LOT_colorWithRGBHex:(UInt32)hex;
++ (UIColor *)LOT_colorWithHexString:(NSString *)stringToConvert;
 
-+ (UIColor *)colorWithName:(NSString *)cssColorName;
++ (UIColor *)LOT_colorWithName:(NSString *)cssColorName;
 
-+ (UIColor *)colorByLerpingFromColor:(UIColor *)fromColor toColor:(UIColor *)toColor amount:(CGFloat)amount;
++ (UIColor *)LOT_colorByLerpingFromColor:(UIColor *)fromColor toColor:(UIColor *)toColor amount:(CGFloat)amount;
 
 @end
