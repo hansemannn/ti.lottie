@@ -12,7 +12,7 @@
 
 @implementation TiLottieVectorViewProxy
 
-- (LAAnimationView *)animationView
+- (LOTAnimationView *)animationView
 {
     return [(TiLottieVectorView *)[self view] animationView];
 }

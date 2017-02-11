@@ -6,12 +6,12 @@
  */
 #import "TiUIView.h"
 
-@class LAAnimationView;
+@class LOTAnimationView;
 
 @interface TiLottieVectorView : TiUIView {
-    LAAnimationView *animationView;
+    LOTAnimationView *animationView;
 }
 
-- (LAAnimationView *)animationView;
+- (LOTAnimationView *)animationView;
 
 @end

@@ -9,19 +9,17 @@
 #import "TiBase.h"
 #import "TiHost.h"
 #import "TiUtils.h"
-#import "LAAnimationView.h"
+#import "LOTAnimationView.h"
 
 @implementation TiLottieModule
 
 #pragma mark Internal
 
-// this is generated for your module, please do not change it
 -(id)moduleGUID
 {
 	return @"85a96b4e-a642-4dee-ae20-a0949b521a54";
 }
 
-// this is generated for your module, please do not change it
 -(NSString*)moduleId
 {
 	return @"ti.lottie";
@@ -31,11 +29,14 @@
 
 -(void)startup
 {
-	// this method is called when the module is first loaded
-	// you *must* call the superclass
 	[super startup];
-
 	NSLog(@"[DEBUG] %@ loaded",self);
 }
+
+#pragma mark Constants
+
+MAKE_SYSTEM_STR(CONTENT_MODE_ASPECT_FIT, @"aspectFit");
+MAKE_SYSTEM_STR(CONTENT_MODE_ASPECT_FILL, @"aspectFill");
+MAKE_SYSTEM_STR(CONTENT_MODE_SCALE_FILL, @"scaleFill");
 
 @end
