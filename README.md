@@ -2,7 +2,9 @@
 
 [![Contact](http://hans-knoechel.de/shields/shield-twitter.svg)](http://twitter.com/hansemannnn)
 
- Summary
+> ⚠️ This module moved to the cross-platform reposiroty [Ti.Animation](https://github.com/m1ga/ti.animation) to support both the Keyframes and the Lottie library in on centralized repository for iOS and Android. Please update to Ti.Animation, thx! ⚠️
+
+Summary
 ---------------
 Ti.Lottie is an open-source project to support the [Airbnb Lottie library](https://github.com/airbnb/lottie-ios) in Appcelerator Titanium. 
 The module supports all available API's, like starting, pausing and interacting with the view.
